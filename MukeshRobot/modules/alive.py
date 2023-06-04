@@ -30,7 +30,7 @@ Mukesh = [
     ],
 ]
 
-lol = "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg"
+lol = "https://telegra.ph/file/c9bf09ab92ce5432b4cb7.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -54,10 +54,10 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.8)
     await m.reply_photo(
         lol,
-        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[𝗩𝗜𝗣 𝗥𝗢𝗕𝗢𝗧](f"t.me/{BOT_USERNAME}")』🎄**
+        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[𝐐𝐍 𝐑𝐎𝐁𝐎𝐓](f"t.me/{BOT_USERNAME}")』🎄**
    ╔═════ஜ۩۞۩ஜ════╗
 
-   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗩𝗜𝗣 𝗕𝗢𝗬](https://t.me/THE_VIP_BOY)♨️
+   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗘𝗕𝗗 𝗤𝗡](https://t.me/EBD_QN)♨️
 
    ╚═════ஜ۩۞۩ஜ════╝""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
@@ -68,4 +68,4 @@ __help__ = """
 *ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs*:
 » /alive*:* ᴛᴏ ᴄʜᴇᴀᴋ ❓  ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ?
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆"""
+☆............𝙱𝚈 » [𝗘𝗕𝗗 𝗤𝗡](https://t.me/EBD_QN)............☆"""
